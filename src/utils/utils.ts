@@ -1,8 +1,10 @@
 import {JsonRpcProvider} from 'ethers';
+import {config} from 'dotenv';
+config({path: '.env'});
 
-const BASE_PROVIDER = new JsonRpcProvider('https://base.llamarpc.com');
+const BASE_PROVIDER = new JsonRpcProvider(process.env.BASE_RPC!);
 
-const ARB1_PROVIDER = new JsonRpcProvider('https://arbitrum.drpc.org');
+const ARB1_PROVIDER = new JsonRpcProvider(process.env.ARB1_RPC!);
 
 export function getProvider(chain: string) {
   if (chain === 'base') {

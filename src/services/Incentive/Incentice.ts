@@ -1,5 +1,5 @@
-import {formatEther, formatUnits, isAddress} from 'ethers';
-import {IncentiveController, IncentiveController__factory} from '../../typechain-types';
+import {formatUnits} from 'ethers';
+import {IncentiveController__factory} from '../../typechain-types';
 import utils = require('../../utils/utils');
 import {user} from '../User/User';
 
