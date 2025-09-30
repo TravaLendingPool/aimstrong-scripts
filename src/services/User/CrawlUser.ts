@@ -60,7 +60,7 @@ const events = ['Deposit'];
 export async function getListUser() {
   // Sửa lại để đồng bộ, gom kết quả của tất cả các chain và event, trả về sau khi hoàn thành hết
   const allResults: any[] = [];
-  console.log('chains', chains);
+
   for (const chain of chains) {
     console.log(`\n=== Fetching logs for ${chain.name} (Chain ID: ${chain.chainId}) ===`);
     let dataChain: any = [];
