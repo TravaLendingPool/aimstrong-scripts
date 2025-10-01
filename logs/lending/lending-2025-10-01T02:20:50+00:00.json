@@ -1,0 +1,205 @@
+[
+  {
+    "chain": "base",
+    "token": "usdt",
+    "totalDeposit": 27.700327,
+    "totalBorrow": 1.527406,
+    "data": [
+      {
+        "address": "0x2c0e21f7c0e4bd6b1a82ab66164db747fc40e54e",
+        "deposit": 2.017161,
+        "borrow": 0
+      },
+      {
+        "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
+        "deposit": 0,
+        "borrow": 1.517406
+      },
+      {
+        "address": "0x27a80f6de3472a46debd8030a4f19408d21fa4d6",
+        "deposit": 25.683166,
+        "borrow": 0
+      },
+      {
+        "address": "0xd4059a8d03659613297cc79e27bd157bc0f9eaef",
+        "deposit": 0,
+        "borrow": 0.01
+      }
+    ]
+  },
+  {
+    "chain": "base",
+    "token": "usdc",
+    "totalDeposit": 2843.874431,
+    "totalBorrow": 2158.570625,
+    "data": [
+      {
+        "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
+        "deposit": 0,
+        "borrow": 4.529368
+      },
+      {
+        "address": "0x86a36a5baaa5c60036e758caa1a4dad32e6a5af4",
+        "deposit": 0.536485,
+        "borrow": 0
+      },
+      {
+        "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
+        "deposit": 5.022817,
+        "borrow": 0
+      },
+      {
+        "address": "0x1cdcbb01f6c6850120f96f659a8bef2097df8182",
+        "deposit": 2.009126,
+        "borrow": 0
+      },
+      {
+        "address": "0xee6eacc608a4524df5cb1a33ce7840139a8dea1a",
+        "deposit": 0.150257,
+        "borrow": 0
+      },
+      {
+        "address": "0x27a80f6de3472a46debd8030a4f19408d21fa4d6",
+        "deposit": 600.92419,
+        "borrow": 450.936672
+      },
+      {
+        "address": "0x26bad3ab96d0727878f94b7cfcf79318e03f0252",
+        "deposit": 2203.191378,
+        "borrow": 1703.104585
+      },
+      {
+        "address": "0x078c8fcbda37f0aa9c7de11100fb1adffa68997b",
+        "deposit": 1.001364,
+        "borrow": 0
+      },
+      {
+        "address": "0x584a7db5f3960ae42a030a4589f0023683822057",
+        "deposit": 30.037829,
+        "borrow": 0
+      },
+      {
+        "address": "0x07d2cf9af55ebe02bb7faca3ee4c4bb46bbbc026",
+        "deposit": 1.000985,
+        "borrow": 0
+      }
+    ]
+  },
+  {
+    "chain": "base",
+    "token": "eth",
+    "totalDeposit": 1.003435303349294,
+    "totalBorrow": 0.5003596802822959,
+    "data": [
+      {
+        "address": "0xe3dda1853e9dbba21ccbab0ae63a82895713c19c",
+        "deposit": 0.000460161710624783,
+        "borrow": 0
+      },
+      {
+        "address": "0x07d2cf9af55ebe02bb7faca3ee4c4bb46bbbc026",
+        "deposit": 0.002587320144401666,
+        "borrow": 0
+      },
+      {
+        "address": "0x3655ad27b6b942511e2625872eedb6d79bd3ed4c",
+        "deposit": 1.0001477655450264,
+        "borrow": 0.5003596802822959
+      },
+      {
+        "address": "0xeaae150c227a0697d5b143544c6b98447c235d63",
+        "deposit": 0.00022005281461465,
+        "borrow": 0
+      },
+      {
+        "address": "0xd4059a8d03659613297cc79e27bd157bc0f9eaef",
+        "deposit": 0.000020003134626621,
+        "borrow": 0
+      }
+    ]
+  },
+  {
+    "chain": "arb1",
+    "token": "usdc",
+    "totalDeposit": 5.390174,
+    "totalBorrow": 0.230109,
+    "data": [
+      {
+        "address": "0x2c0e21f7c0e4bd6b1a82ab66164db747fc40e54e",
+        "deposit": 0.000056,
+        "borrow": 0
+      },
+      {
+        "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
+        "deposit": 5.000111,
+        "borrow": 0
+      },
+      {
+        "address": "0xa38e7e5d690c1e66a5244d826fcfd3bbb605542c",
+        "deposit": 0.290006,
+        "borrow": 0.200099
+      },
+      {
+        "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
+        "deposit": 0.100001,
+        "borrow": 0.03001
+      }
+    ]
+  },
+  {
+    "chain": "arb1",
+    "token": "usdt",
+    "totalDeposit": 60.183357,
+    "totalBorrow": 1.014684,
+    "data": [
+      {
+        "address": "0x2c0e21f7c0e4bd6b1a82ab66164db747fc40e54e",
+        "deposit": 0.000047,
+        "borrow": 0
+      },
+      {
+        "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
+        "deposit": 45.003249,
+        "borrow": 1.001253
+      },
+      {
+        "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
+        "deposit": 0.180024,
+        "borrow": 0.010012
+      },
+      {
+        "address": "0xbe02474d4278db209db83c03ffe9e8bc65c73122",
+        "deposit": 0.000005,
+        "borrow": 0.001335
+      },
+      {
+        "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
+        "deposit": 5.000018,
+        "borrow": 0.002084
+      },
+      {
+        "address": "0xcc963741a98f57ffc65f893e8b98a1467d1811c9",
+        "deposit": 10.000014,
+        "borrow": 0
+      }
+    ]
+  },
+  {
+    "chain": "arb1",
+    "token": "eth",
+    "totalDeposit": 0.00010284804223114,
+    "totalBorrow": 0,
+    "data": [
+      {
+        "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
+        "deposit": 0.0001,
+        "borrow": 0
+      },
+      {
+        "address": "0xbe02474d4278db209db83c03ffe9e8bc65c73122",
+        "deposit": 0.00000284804223114,
+        "borrow": 0
+      }
+    ]
+  }
+]
