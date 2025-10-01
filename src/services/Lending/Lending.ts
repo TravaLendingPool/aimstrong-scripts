@@ -29,6 +29,14 @@ const TOKEN = [
     decimals: 18,
   },
   {
+    chain: 'base',
+    token: 'cbbtc',
+    t: '0x6772AE7D6904c1e5a9377e2d3e510eB52Fdf2f3c',
+    d: '0x52c39aEf11bBA2338AA5f0b04c713c1b98eA788a',
+    decimals: 8,
+  },
+
+  {
     chain: 'arb1',
     token: 'usdc',
     t: '0x0638581B5B904333Ba34A724c38A8E55a5A56e88',
@@ -48,6 +56,13 @@ const TOKEN = [
     t: '0x31b21516cD00F34Df53471de1EE9873ea70F61f0',
     d: '0xa3ea4acD965a98A469921d9Fd119216dB5A26f50',
     decimals: 18,
+  },
+  {
+    chain: 'arb1',
+    token: 'wbtc',
+    t: '0x6772AE7D6904c1e5a9377e2d3e510eB52Fdf2f3c',
+    d: '0x52c39aEf11bBA2338AA5f0b04c713c1b98eA788a',
+    decimals: 8,
   },
 ];
 

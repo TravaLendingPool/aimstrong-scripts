@@ -30,6 +30,12 @@ const TOKENS: {
     symbol: 'ETH',
     chains: ['Base', 'Arbitrum'],
   },
+{
+    id: '4',
+    name: 'Bitcoin',
+    symbol: 'BTC',
+    chains: ['Base', 'Arbitrum'],
+  },
 ];
 
 export async function exportDataLendingFunc(): Promise<LendingDataResposne> {
