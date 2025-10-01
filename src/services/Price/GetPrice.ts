@@ -1,4 +1,4 @@
-export async function getPrice(symbols: string[]) {
+export async function getPricePyth(symbols: string[]) {
   const ids: Record<string, string> = {
     USDT: 'cfc1303ea9f083b1b4f99e1369fb9d2611f3230d5ea33a6abf2f86071c089fdc',
     USDC: 'eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a',
@@ -30,11 +30,5 @@ export async function getPrice(symbols: string[]) {
     prices.push(actualPrice);
   }
 
-  console.log(prices);
   return prices;
 }
-
-// TEST
-getPrice(['ETH', 'USDT', 'USDC']).catch((err) => {
-  console.error('Error:', err);
-});
