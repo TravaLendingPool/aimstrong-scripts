@@ -32,7 +32,7 @@ const TOKENS: {
   },
 ];
 
-export async function exportDataLending(): Promise<LendingDataResposne> {
+export async function exportDataLendingFunc(): Promise<LendingDataResposne> {
   let result: LendingDataResposne = {
     chartData: [],
     currentValues: {totalBorrowUsd: 0, totalSupplyUsd: 0},
@@ -151,9 +151,6 @@ async function getDataTokenUpadtedEachChain(token: Token, chain: string, data: a
   let codeToken = getTokenCode(token.symbol);
   let codeChain = getChainCode(chain);
 
-  console.log('code Token', codeToken);
-  console.log('code chain', codeChain);
-
   const result: {
     totalSupply: number;
     totalBorrow: number;
@@ -266,20 +263,4 @@ async function readData(): Promise<LendingDataResposne> {
     };
   }
   return existingData;
-}
-
-async function test() {
-  // let data = await lending.crawlData();
-  // await getDataTokenUpdated(TOKENS[0], data);
-  // let data = await lending.crawlData();
-  // let data2 = await getDataTokenUpadtedEachChain('USDC', 'Arbitrum', data);
-  // console.log(data2);
-  //console.log(getChainCode('Arbitrum'));
-
-  let data = await exportDataLending();
-  console.log(data);
-}
-
-if (require.main === module) {
-  test();
 }
