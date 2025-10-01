@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/main.ts",
+    "start": "ts-node src/main.ts",
     "typechain": "typechain --target=ethers-v6 ./abi/**/*.json --out-dir src/typechain-types"
   },
   "author": "",
