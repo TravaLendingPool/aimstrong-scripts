@@ -10,7 +10,7 @@ export function getProvider(chain: string) {
   if (chain === 'base') {
     return BASE_PROVIDER;
   }
-  if (chain === 'arb1') {
+  if (chain === 'arb1' || chain === 'arbitrum one') {
     return ARB1_PROVIDER;
   }
 
