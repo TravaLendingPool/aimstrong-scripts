@@ -49,7 +49,7 @@ jobs:
           RPC_URL_BASE: ${{ secrets.RPC_URL_BASE }}
           RPC_URL_ARBITRUM: ${{ secrets.RPC_URL_ARBITRUM }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
       - name: Upload logs (optional)
         if: failure()
