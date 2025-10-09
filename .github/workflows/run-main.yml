@@ -9,9 +9,6 @@ on:
   # Chạy khi push vào branch main
   push:
     branches: [main]
-  # Chạy khi có pull request vào main
-  pull_request:
-    branches: [main]
 
 jobs:
   run-main:

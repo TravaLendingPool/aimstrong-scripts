@@ -34,7 +34,7 @@ jobs:
         run: npm run start
         env:
           NODE_ENV: ${{ github.event.inputs.environment }}
-          BASE_RPC: ${{ secrets.RPC_URL_BASE }}
-          ARB1_RPC: ${{ secrets.RPC_URL_ARBITRUM }}
+          BASE_RPC: ${{ secrets.BASE_RPC }}
+          ARB1_RPC: ${{ secrets.ARB1_RPC }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
