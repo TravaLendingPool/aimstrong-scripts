@@ -6,8 +6,7 @@ on:
   # Chạy theo lịch (mỗi ngày lúc 2:00 UTC)
   schedule:
     - cron: "0 2 * * *"
-  schedule:
-    - cron: "*/5 * * * *"  # chạy mỗi 5 phút để test
+    - cron: "*/5 * * * *" # chạy mỗi 5 phút để test
 
 jobs:
   run-main:
