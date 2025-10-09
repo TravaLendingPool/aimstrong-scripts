@@ -3,10 +3,11 @@ name: Run Main Script
 on:
   # Chạy thủ công
   workflow_dispatch:
-  # Chạy theo lịch (mỗi ngày lúc 2:00 UTC)
+  # Chạy theo lịch (mỗi 3 tiếng)
   schedule:
-    - cron: "0 2 * * *"
-    - cron: "*/5 * * * *" # chạy mỗi 5 phút để test
+    - cron: "0 */3 * * *" # chạy mỗi 3 tiếng
+  on push:
+    branches: [main]
 
 jobs:
   run-main:
