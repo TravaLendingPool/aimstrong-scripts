@@ -48,3 +48,5 @@
 - Xem logs trong **Actions** tab
 - Nếu có lỗi, logs sẽ được upload dưới dạng artifact
 - Có thể setup notifications qua email/Slack
+
+act --container-architecture linux/amd64

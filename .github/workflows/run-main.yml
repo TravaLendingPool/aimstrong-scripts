@@ -46,8 +46,8 @@ jobs:
         env:
           # Thêm các environment variables cần thiết ở đây
           # Hoặc sử dụng GitHub Secrets để bảo mật
-          RPC_URL_BASE: ${{ secrets.RPC_URL_BASE }}
-          RPC_URL_ARBITRUM: ${{ secrets.RPC_URL_ARBITRUM }}
+          BASE_RPC: ${{ secrets.RPC_URL_BASE }}
+          ARB1_RPC: ${{ secrets.RPC_URL_ARBITRUM }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
