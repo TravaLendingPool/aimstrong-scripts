@@ -6,9 +6,6 @@ on:
   # Chạy theo lịch (mỗi ngày lúc 2:00 UTC)
   schedule:
     - cron: "0 2 * * *"
-  # Chạy khi push vào branch main
-  push:
-    branches: [main]
 
 jobs:
   run-main:
@@ -43,8 +40,8 @@ jobs:
         env:
           # Thêm các environment variables cần thiết ở đây
           # Hoặc sử dụng GitHub Secrets để bảo mật
-          BASE_RPC: ${{ secrets.RPC_URL_BASE }}
-          ARB1_RPC: ${{ secrets.RPC_URL_ARBITRUM }}
+          BASE_RPC: ${{ secrets.BASE_RPC }}
+          ARB1_RPC: ${{ secrets.ARB1_RPC }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
