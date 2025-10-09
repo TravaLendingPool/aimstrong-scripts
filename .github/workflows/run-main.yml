@@ -1,0 +1,61 @@
+name: Run Main Script
+
+on:
+  # Chạy thủ công
+  workflow_dispatch:
+  # Chạy theo lịch (mỗi ngày lúc 2:00 UTC)
+  schedule:
+    - cron: "0 2 * * *"
+  # Chạy khi push vào branch main
+  push:
+    branches: [main]
+  # Chạy khi có pull request vào main
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create .env file
+        run: |
+          echo "Creating .env file with required environment variables"
+          touch .env
+          echo "# Add your environment variables here" >> .env
+          echo "# Example:" >> .env
+          echo "# RPC_URL_BASE=https://mainnet.base.org" >> .env
+          echo "# RPC_URL_ARBITRUM=https://arb1.arbitrum.io/rpc" >> .env
+          echo "# SUPABASE_URL=your_supabase_url" >> .env
+          echo "# SUPABASE_ANON_KEY=your_supabase_anon_key" >> .env
+
+      - name: Run main script
+        run: npm run start
+        env:
+          # Thêm các environment variables cần thiết ở đây
+          # Hoặc sử dụng GitHub Secrets để bảo mật
+          RPC_URL_BASE: ${{ secrets.RPC_URL_BASE }}
+          RPC_URL_ARBITRUM: ${{ secrets.RPC_URL_ARBITRUM }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+
+      - name: Upload logs (optional)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-logs
+          path: |
+            *.log
+            logs/
