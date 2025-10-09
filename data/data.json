@@ -55,11 +55,18 @@
       "totalBorrowUsd": 4407.448600632512,
       "supplyUsers": 20,
       "borrowUsers": 10
+    },
+    {
+      "time": 1759978418195,
+      "totalSupplyUsd": 7817.449310200502,
+      "totalBorrowUsd": 4375.475102291883,
+      "supplyUsers": 21,
+      "borrowUsers": 10
     }
   ],
   "currentValues": {
-    "totalBorrowUsd": 4407.448600632512,
-    "totalSupplyUsd": 7889.032521553761
+    "totalBorrowUsd": 4375.475102291883,
+    "totalSupplyUsd": 7817.449310200502
   },
   "tokenData": [
     {
@@ -70,17 +77,17 @@
         "Base",
         "Arbitrum"
       ],
-      "priceUSD": 0.9998301700000001,
-      "totalSupply": 2849.8990140000005,
-      "totalBorrow": 2160.0205920000003,
+      "priceUSD": 0.99978292,
+      "totalSupply": 2850.072127,
+      "totalBorrow": 2160.201856,
       "chainDetails": [
         {
           "chain": "Base",
-          "totalSupply": 2844.5088330000003,
-          "totalBorrow": 2159.790476,
+          "totalSupply": 2844.681945,
+          "totalBorrow": 2159.971739,
           "apySupply": 0,
           "apyBorrow": 0,
-          "utilizationRate": 75.92841516059373,
+          "utilizationRate": 75.93016656208292,
           "chartData": [
             {
               "time": 1759303724710,
@@ -153,6 +160,15 @@
               "totalBorrowUsd": 2159.423678783461,
               "supplyUsers": 8,
               "borrowUsers": 3
+            },
+            {
+              "time": 1759978417429,
+              "totalSupply": 2844.681945,
+              "totalBorrow": 2159.971739,
+              "totalSupplyUsd": 2844.064421443379,
+              "totalBorrowUsd": 2159.502852334898,
+              "supplyUsers": 8,
+              "borrowUsers": 3
             }
           ],
           "userData": [
@@ -160,65 +176,65 @@
               "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
               "nickname": null,
               "amountSupply": 0,
-              "amountBorrow": 4.531927
+              "amountBorrow": 4.532308
             },
             {
               "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
               "nickname": null,
-              "amountSupply": 5.024797,
+              "amountSupply": 5.025085,
               "amountBorrow": 0
             },
             {
               "address": "0x1cdcbb01f6c6850120f96f659a8bef2097df8182",
               "nickname": null,
-              "amountSupply": 2.009919,
+              "amountSupply": 2.010034,
               "amountBorrow": 0
             },
             {
               "address": "0xee6eacc608a4524df5cb1a33ce7840139a8dea1a",
               "nickname": null,
-              "amountSupply": 0.200332,
+              "amountSupply": 0.210344,
               "amountBorrow": 0
             },
             {
               "address": "0x27a80f6de3472a46debd8030a4f19408d21fa4d6",
               "nickname": null,
-              "amountSupply": 601.16108,
-              "amountBorrow": 451.191506
+              "amountSupply": 601.195552,
+              "amountBorrow": 451.229372
             },
             {
               "address": "0x26bad3ab96d0727878f94b7cfcf79318e03f0252",
               "nickname": null,
-              "amountSupply": 2204.059896,
-              "amountBorrow": 1704.067043
+              "amountSupply": 2204.186282,
+              "amountBorrow": 1704.210059
             },
             {
               "address": "0x078c8fcbda37f0aa9c7de11100fb1adffa68997b",
               "nickname": null,
-              "amountSupply": 1.001759,
+              "amountSupply": 1.001816,
               "amountBorrow": 0
             },
             {
               "address": "0x584a7db5f3960ae42a030a4589f0023683822057",
               "nickname": null,
-              "amountSupply": 30.04967,
+              "amountSupply": 30.051394,
               "amountBorrow": 0
             },
             {
               "address": "0x07d2cf9af55ebe02bb7faca3ee4c4bb46bbbc026",
               "nickname": null,
-              "amountSupply": 1.00138,
+              "amountSupply": 1.001438,
               "amountBorrow": 0
             }
           ]
         },
         {
           "chain": "Arbitrum",
-          "totalSupply": 5.390180999999999,
-          "totalBorrow": 0.23011600000000001,
+          "totalSupply": 5.390181999999999,
+          "totalBorrow": 0.23011700000000002,
           "apySupply": 0,
           "apyBorrow": 0,
-          "utilizationRate": 4.269170181854748,
+          "utilizationRate": 4.26918794207691,
           "chartData": [
             {
               "time": 1759303724711,
@@ -291,6 +307,15 @@
               "totalBorrowUsd": 0.23007711269716002,
               "supplyUsers": 4,
               "borrowUsers": 2
+            },
+            {
+              "time": 1759978417537,
+              "totalSupply": 5.390181999999999,
+              "totalBorrow": 0.23011700000000002,
+              "totalSupplyUsd": 5.3890118992914395,
+              "totalBorrowUsd": 0.23006704620164,
+              "supplyUsers": 4,
+              "borrowUsers": 2
             }
           ],
           "userData": [
@@ -303,14 +328,14 @@
             {
               "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
               "nickname": null,
-              "amountSupply": 5.000118,
+              "amountSupply": 5.000119,
               "amountBorrow": 0
             },
             {
               "address": "0xa38e7e5d690c1e66a5244d826fcfd3bbb605542c",
               "nickname": null,
               "amountSupply": 0.290006,
-              "amountBorrow": 0.200105
+              "amountBorrow": 0.200106
             },
             {
               "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
@@ -330,17 +355,17 @@
         "Base",
         "Arbitrum"
       ],
-      "priceUSD": 1.00036051,
-      "totalSupply": 87.883802,
-      "totalBorrow": 2.5422089999999997,
+      "priceUSD": 0.99999841,
+      "totalSupply": 88.08382,
+      "totalBorrow": 2.542226,
       "chainDetails": [
         {
           "chain": "Base",
-          "totalSupply": 27.700426,
-          "totalBorrow": 1.527505,
+          "totalSupply": 27.90044,
+          "totalBorrow": 1.5275189999999998,
           "apySupply": 0,
           "apyBorrow": 0,
-          "utilizationRate": 5.514373677863293,
+          "utilizationRate": 5.474892152238459,
           "chartData": [
             {
               "time": 1759303724713,
@@ -413,25 +438,40 @@
               "totalBorrowUsd": 1.5280556808275498,
               "supplyUsers": 2,
               "borrowUsers": 2
+            },
+            {
+              "time": 1759978417765,
+              "totalSupply": 27.90044,
+              "totalBorrow": 1.5275189999999998,
+              "totalSupplyUsd": 27.9003362103632,
+              "totalBorrowUsd": 1.5275133176293199,
+              "supplyUsers": 3,
+              "borrowUsers": 2
             }
           ],
           "userData": [
             {
               "address": "0x2c0e21f7c0e4bd6b1a82ab66164db747fc40e54e",
               "nickname": null,
-              "amountSupply": 2.017169,
+              "amountSupply": 2.01717,
               "amountBorrow": 0
             },
             {
               "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
               "nickname": null,
               "amountSupply": 0,
-              "amountBorrow": 1.517504
+              "amountBorrow": 1.517518
+            },
+            {
+              "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
+              "nickname": null,
+              "amountSupply": 0.2,
+              "amountBorrow": 0
             },
             {
               "address": "0x27a80f6de3472a46debd8030a4f19408d21fa4d6",
               "nickname": null,
-              "amountSupply": 25.683257,
+              "amountSupply": 25.68327,
               "amountBorrow": 0
             },
             {
@@ -444,11 +484,11 @@
         },
         {
           "chain": "Arbitrum",
-          "totalSupply": 60.18337600000001,
-          "totalBorrow": 1.014704,
+          "totalSupply": 60.18338000000001,
+          "totalBorrow": 1.014707,
           "apySupply": 0,
           "apyBorrow": 0,
-          "utilizationRate": 1.6860204053690837,
+          "utilizationRate": 1.6860252780751095,
           "chartData": [
             {
               "time": 1759303724713,
@@ -521,6 +561,15 @@
               "totalBorrowUsd": 1.01506981093904,
               "supplyUsers": 6,
               "borrowUsers": 4
+            },
+            {
+              "time": 1759978417876,
+              "totalSupply": 60.18338000000001,
+              "totalBorrow": 1.014707,
+              "totalSupplyUsd": 60.183156117826414,
+              "totalBorrowUsd": 1.0147032252899602,
+              "supplyUsers": 6,
+              "borrowUsers": 4
             }
           ],
           "userData": [
@@ -533,8 +582,8 @@
             {
               "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
               "nickname": null,
-              "amountSupply": 45.003264,
-              "amountBorrow": 1.001273
+              "amountSupply": 45.003267,
+              "amountBorrow": 1.001276
             },
             {
               "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
@@ -551,7 +600,7 @@
             {
               "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
               "nickname": null,
-              "amountSupply": 5.000019,
+              "amountSupply": 5.00002,
               "amountBorrow": 0.002084
             },
             {
@@ -572,17 +621,17 @@
         "Base",
         "Arbitrum"
       ],
-      "priceUSD": 4485.9910016,
-      "totalSupply": 1.1038145237357244,
-      "totalBorrow": 0.5005029476512726,
+      "priceUSD": 4420.880613,
+      "totalSupply": 1.1038326125707354,
+      "totalBorrow": 0.5006242318430421,
       "chainDetails": [
         {
           "chain": "Base",
-          "totalSupply": 1.0036116756934932,
-          "totalBorrow": 0.5005029476512726,
+          "totalSupply": 1.0036297645285042,
+          "totalBorrow": 0.5006242318430421,
           "apySupply": 0,
           "apyBorrow": 0,
-          "utilizationRate": 49.870179848737436,
+          "utilizationRate": 49.88136557291429,
           "chartData": [
             {
               "time": 1759303724714,
@@ -655,44 +704,59 @@
               "totalBorrowUsd": 2245.2517194378847,
               "supplyUsers": 6,
               "borrowUsers": 2
+            },
+            {
+              "time": 1759978418092,
+              "totalSupply": 1.0036297645285042,
+              "totalBorrow": 0.5006242318430421,
+              "totalSupplyUsd": 4436.927368633819,
+              "totalBorrowUsd": 2213.199960952922,
+              "supplyUsers": 7,
+              "borrowUsers": 3
             }
           ],
           "userData": [
             {
               "address": "0xe3dda1853e9dbba21ccbab0ae63a82895713c19c",
               "nickname": null,
-              "amountSupply": 0.000460219661058821,
+              "amountSupply": 0.000460227955934517,
               "amountBorrow": 0
             },
             {
               "address": "0x07d2cf9af55ebe02bb7faca3ee4c4bb46bbbc026",
               "nickname": null,
-              "amountSupply": 0.002587645978242882,
+              "amountSupply": 0.002587692617280457,
               "amountBorrow": 0
             },
             {
               "address": "0x3655ad27b6b942511e2625872eedb6d79bd3ed4c",
               "nickname": null,
-              "amountSupply": 1.0002737194319145,
-              "amountBorrow": 0.500502947648046
+              "amountSupply": 1.0002917480976206,
+              "amountBorrow": 0.5005242308742953
             },
             {
               "address": "0xeaae150c227a0697d5b143544c6b98447c235d63",
               "nickname": null,
-              "amountSupply": 0.000220080526926047,
+              "amountSupply": 0.00022008449359854,
               "amountBorrow": 0
             },
             {
               "address": "0xd4059a8d03659613297cc79e27bd157bc0f9eaef",
               "nickname": null,
-              "amountSupply": 0.000020005653717761,
-              "amountBorrow": 0
+              "amountSupply": 0.000020006014294308,
+              "amountBorrow": 0.000100000965520116
             },
             {
               "address": "0x11546088b56e7494e7d58a107f1e155b4485dc86",
               "nickname": null,
-              "amountSupply": 0.000050004441633108,
-              "amountBorrow": 3.226507e-12
+              "amountSupply": 0.00005000534289979,
+              "amountBorrow": 3.226644e-12
+            },
+            {
+              "address": "0xe0aad14cfcd9b5ed6f7431822e090b59c34b652e",
+              "nickname": null,
+              "amountSupply": 6.876158e-12,
+              "amountBorrow": 0
             }
           ]
         },
@@ -772,6 +836,15 @@
               "totalSupply": 0.10020284804223115,
               "totalBorrow": 0,
               "totalSupplyUsd": 449.5090746521411,
+              "totalBorrowUsd": 0,
+              "supplyUsers": 4,
+              "borrowUsers": 0
+            },
+            {
+              "time": 1759978418195,
+              "totalSupply": 0.10020284804223115,
+              "totalBorrow": 0,
+              "totalSupplyUsd": 442.9848282772847,
               "totalBorrowUsd": 0,
               "supplyUsers": 4,
               "borrowUsers": 0
