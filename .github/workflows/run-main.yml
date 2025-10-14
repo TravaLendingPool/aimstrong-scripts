@@ -42,6 +42,7 @@ jobs:
           # Hoặc sử dụng GitHub Secrets để bảo mật
           BASE_RPC: ${{ secrets.BASE_RPC }}
           ARB1_RPC: ${{ secrets.ARB1_RPC }}
+          BNB_RPC: ${{ secrets.BNB_RPC }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
 
