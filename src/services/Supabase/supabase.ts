@@ -2,7 +2,7 @@ import {createClient} from '@supabase/supabase-js';
 import 'dotenv/config';
 import {lending} from '../Lending/Lending';
 import {user} from '../User/User';
-import {TokenChainSnapshotData, TotalIndexSnapshotData, UserTokenChainData} from './Types';
+import {TokenChainData, TokenChainSnapshotData, TotalIndexSnapshotData, UserTokenChainData} from './Types';
 
 export const supabaseData = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_KEY!);
 
@@ -116,6 +116,18 @@ export class SupabaseDatabase {
     const now = new Date().toISOString();
     let payload = {...tokenChain, created_at: now};
     const {data, error} = await supabaseData.from('token_chain_snapshot').upsert(payload);
+    if (error) {
+      console.log(error);
+      throw error;
+    }
+    return data;
+  }
+
+  async updateRecordTokenChain(tokenChain: TokenChainData) {
+    const now = new Date().toISOString();
+
+    tokenChain.created_at = now;
+    const {data, error} = await supabaseData.from('token_chain').upsert(tokenChain);
     if (error) {
       console.log(error);
       throw error;

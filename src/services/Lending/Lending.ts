@@ -198,6 +198,15 @@ export class Lending {
         borrowers_count: tokenChainDataCache.borrowers_count,
       };
       await supabase.createRecordTokenChainSnapshot(tokenChainData);
+      await supabase.updateRecordTokenChain({
+        ...tokenChain,
+        total_supplied: tokenChainDataCache.total_supplied,
+        total_borrowed: tokenChainDataCache.total_borrowed,
+        total_supplied_usd: tokenChainDataCache.total_supplied * priceData,
+        total_borrowed_usd: tokenChainDataCache.total_borrowed * priceData,
+        suppliers_count: tokenChainDataCache.suppliers_count,
+        borrowers_count: tokenChainDataCache.borrowers_count,
+      });
     }
 
     totalIndexData.suppliers_count = totalIndexData.suppliers.size;
