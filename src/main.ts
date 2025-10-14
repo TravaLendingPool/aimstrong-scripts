@@ -7,8 +7,8 @@ async function main() {
   // await lending.updateDataToSupabase();
   // let priceBNB = await price.getPrice('bnb');
   // console.log(priceBNB);
-  let data = await lending.updateDataToSupabase(false);
-  await lending.exportDataFromUpdateDataToSupabase(data);
+  let data = await lending.updateDataToSupabase();
+  //await lending.exportDataFromUpdateDataToSupabase(data);
 }
 
 main();
