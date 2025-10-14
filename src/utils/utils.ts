@@ -6,6 +6,8 @@ const BASE_PROVIDER = new JsonRpcProvider(process.env.BASE_RPC!);
 
 const ARB1_PROVIDER = new JsonRpcProvider(process.env.ARB1_RPC!);
 
+const BNB_PROVIDER = new JsonRpcProvider(process.env.BNB_RPC!);
+
 export function getProvider(chain: string) {
   if (chain === 'base') {
     return BASE_PROVIDER;
@@ -13,7 +15,9 @@ export function getProvider(chain: string) {
   if (chain === 'arb1' || chain === 'arbitrum one') {
     return ARB1_PROVIDER;
   }
-
+  if (chain === 'bnb' || chain === 'bnb chain') {
+    return BNB_PROVIDER;
+  }
   throw new Error(`Unsupported chain: ${chain}`);
 }
 

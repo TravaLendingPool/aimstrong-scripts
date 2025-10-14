@@ -1,56 +1,10 @@
 import {ethers, formatUnits} from 'ethers';
 import {ERC20__factory, utils} from '../../typechain-types';
 import {getProvider, sleep} from '../../utils/utils';
-import {user} from '../User/User';
 
-import {exportDataLendingFunc} from './ExportDataLending';
 import {supabase} from '../Supabase/supabase';
 import {price} from '../Price/Price';
 import {TokenChainSnapshotData, UserTokenChainData} from '../Supabase/Types';
-const TOKEN = [
-  {
-    chain: 'base',
-    token: 'usdt',
-    t: '0x13DBE2E9293B322d374E6eAc3553e7acD7d32DE6',
-    d: '0xebb00b2CC0E46C788Af4167CD27F6a6C5d81CbC3',
-    decimals: 6,
-  },
-  {
-    chain: 'base',
-    token: 'usdc',
-    t: '0x0638581B5B904333Ba34A724c38A8E55a5A56e88',
-    d: '0x3f202d59D01119f7B4E46db4b28b60f817a3dCe9',
-    decimals: 6,
-  },
-  {
-    chain: 'base',
-    token: 'eth',
-    t: '0x31b21516cD00F34Df53471de1EE9873ea70F61f0',
-    d: '0xa3ea4acD965a98A469921d9Fd119216dB5A26f50',
-    decimals: 18,
-  },
-  {
-    chain: 'arb1',
-    token: 'usdc',
-    t: '0x0638581B5B904333Ba34A724c38A8E55a5A56e88',
-    d: '0x3f202d59D01119f7B4E46db4b28b60f817a3dCe9',
-    decimals: 6,
-  },
-  {
-    chain: 'arb1',
-    token: 'usdt',
-    t: '0x13DBE2E9293B322d374E6eAc3553e7acD7d32DE6',
-    d: '0xebb00b2CC0E46C788Af4167CD27F6a6C5d81CbC3',
-    decimals: 6,
-  },
-  {
-    chain: 'arb1',
-    token: 'eth',
-    t: '0x31b21516cD00F34Df53471de1EE9873ea70F61f0',
-    d: '0xa3ea4acD965a98A469921d9Fd119216dB5A26f50',
-    decimals: 18,
-  },
-];
 
 export class Lending {
   async crawDataUserWithTokenAndChain(address: string, interestBearingToken: string, debtToken: string, chain: string) {
@@ -67,53 +21,7 @@ export class Lending {
     };
   }
 
-  async crawlDataUser(address: string) {
-    let result = [];
-    for (const token of TOKEN) {
-      let provider = getProvider(token.chain);
-      let t = ERC20__factory.connect(token.t, provider);
-      let d = ERC20__factory.connect(token.d, provider);
-      let [balancet, balanced] = await Promise.all([t.balanceOf(address), d.balanceOf(address)]);
-      result.push({
-        chain: token.chain,
-        token: token.token,
-        deposit: Number(formatUnits(balancet, token.decimals)),
-        borrow: Number(formatUnits(balanced, token.decimals)),
-      });
-    }
-    return {
-      address: address,
-      data: result,
-    };
-  }
-
-  async crawlData(limit: number = 0) {
-    let users = await user.getUsers();
-    if (limit > 0) {
-      users = users.slice(0, Math.min(limit, users.length));
-    }
-    let sleepTime = 1000;
-    let batchSize = 3;
-    let allResult: any = [];
-    for (let i = 0; i < users.length; i += batchSize) {
-      console.log(`Processing batch ${i / batchSize + 1} of ${users.length / batchSize}`);
-      let batch = users.slice(i, i + batchSize);
-      let batchResult = await Promise.all(
-        batch.map(async (user) => {
-          return await this.crawlDataUser(user);
-        })
-      );
-      allResult = [...allResult, ...batchResult];
-      await sleep(sleepTime);
-    }
-    return allResult;
-  }
-
-  async exportDataLending() {
-    return await exportDataLendingFunc();
-  }
-
-  async updateDataToSupabase() {
+  async updateDataToSupabase(write: boolean = true, limit: number = 0) {
     let totalIndexData = {
       total_supplied_usd: 0,
       total_borrowed_usd: 0,
@@ -124,7 +32,27 @@ export class Lending {
     };
 
     let listUser = await supabase.getListUser();
+    if (limit > 0) {
+      listUser = listUser.slice(0, Math.min(limit, listUser.length));
+    }
     let listTokenChain = await supabase.getListTokenChain();
+
+    let dataByUser = new Map<
+      string,
+      {
+        totalSuppliedUSD: number;
+        totalBorrowedUSD: number;
+        data: Map<
+          string,
+          {
+            supplied: number;
+            borrowed: number;
+            suppliedUSD: number;
+            borrowedUSD: number;
+          }
+        >;
+      }
+    >();
 
     for (let ii = 0; ii < listTokenChain!.length; ii++) {
       let tokenChain = listTokenChain![ii];
@@ -158,6 +86,25 @@ export class Lending {
           })
         );
         batchResult.forEach(async (e) => {
+          let recordByUser = dataByUser.get(e.user.address);
+          if (!recordByUser) {
+            recordByUser = {
+              totalSuppliedUSD: 0,
+              totalBorrowedUSD: 0,
+              data: new Map(),
+            };
+          }
+          recordByUser.totalSuppliedUSD += Number(formatUnits(e.data.deposit, tokenChain.decimals)) * priceData;
+          recordByUser.totalBorrowedUSD += Number(formatUnits(e.data.borrow, tokenChain.decimals)) * priceData;
+          recordByUser.data.set(`${tokenData.symbol}-${chainData.name}`, {
+            supplied: Number(formatUnits(e.data.deposit, tokenChain.decimals)),
+            borrowed: Number(formatUnits(e.data.borrow, tokenChain.decimals)),
+            suppliedUSD: Number(formatUnits(e.data.deposit, tokenChain.decimals)) * priceData,
+            borrowedUSD: Number(formatUnits(e.data.borrow, tokenChain.decimals)) * priceData,
+          });
+
+          dataByUser.set(e.user.address, recordByUser);
+
           if (e.data.deposit > 0n || e.data.borrow > 0n) {
             let amount_supplied = Number(formatUnits(e.data.deposit, tokenChain.decimals));
             let amount_borrowed = Number(formatUnits(e.data.borrow, tokenChain.decimals));
@@ -172,7 +119,7 @@ export class Lending {
               amount_borrowed_usd: amount_borrowed_usd,
             };
 
-            await supabase.updateUserTokenChain(userTokenChainData);
+            if (write) await supabase.updateUserTokenChain(userTokenChainData);
 
             tokenChainDataCache.total_supplied += amount_supplied;
             tokenChainDataCache.total_borrowed += amount_borrowed;
@@ -197,35 +144,150 @@ export class Lending {
         suppliers_count: tokenChainDataCache.suppliers_count,
         borrowers_count: tokenChainDataCache.borrowers_count,
       };
-      await supabase.createRecordTokenChainSnapshot(tokenChainData);
-      await supabase.updateRecordTokenChain({
-        ...tokenChain,
-        total_supplied: tokenChainDataCache.total_supplied,
-        total_borrowed: tokenChainDataCache.total_borrowed,
-        total_supplied_usd: tokenChainDataCache.total_supplied * priceData,
-        total_borrowed_usd: tokenChainDataCache.total_borrowed * priceData,
-        suppliers_count: tokenChainDataCache.suppliers_count,
-        borrowers_count: tokenChainDataCache.borrowers_count,
-      });
+      if (write) await supabase.createRecordTokenChainSnapshot(tokenChainData);
+      if (write)
+        await supabase.updateRecordTokenChain({
+          ...tokenChain,
+          total_supplied: tokenChainDataCache.total_supplied,
+          total_borrowed: tokenChainDataCache.total_borrowed,
+          total_supplied_usd: tokenChainDataCache.total_supplied * priceData,
+          total_borrowed_usd: tokenChainDataCache.total_borrowed * priceData,
+          suppliers_count: tokenChainDataCache.suppliers_count,
+          borrowers_count: tokenChainDataCache.borrowers_count,
+        });
     }
 
     totalIndexData.suppliers_count = totalIndexData.suppliers.size;
     totalIndexData.borrowers_count = totalIndexData.borrowers.size;
     totalIndexData.total_supplied_usd = totalIndexData.total_supplied_usd;
     totalIndexData.total_borrowed_usd = totalIndexData.total_borrowed_usd;
-    await supabase.createRecodeTotalIndexSnapshot({
-      total_supplied_usd: totalIndexData.total_supplied_usd,
-      total_borrowed_usd: totalIndexData.total_borrowed_usd,
-      suppliers_count: totalIndexData.suppliers_count,
-      borrowers_count: totalIndexData.borrowers_count,
-    });
+    if (write)
+      await supabase.createRecodeTotalIndexSnapshot({
+        total_supplied_usd: totalIndexData.total_supplied_usd,
+        total_borrowed_usd: totalIndexData.total_borrowed_usd,
+        suppliers_count: totalIndexData.suppliers_count,
+        borrowers_count: totalIndexData.borrowers_count,
+      });
+    return dataByUser;
+  }
+
+  async viewFromUpdateDataToSupabase(
+    data: Map<
+      string,
+      {
+        totalSuppliedUSD: number;
+        totalBorrowedUSD: number;
+        data: Map<
+          string,
+          {
+            supplied: number;
+            borrowed: number;
+            suppliedUSD: number;
+            borrowedUSD: number;
+          }
+        >;
+      }
+    >,
+    exportFile: boolean = false
+  ) {
+    let result: any[] = [];
+    let listChain = await supabase.getListChain();
+    let listTokenByChain = new Map<string, string[]>();
+    let listTokenById = new Map<number, string>();
+
+    for (let i = 0; i < listChain.length; i++) {
+      let getListTokenByChain = await supabase.getListTokenByChain(listChain[i].id);
+      // crawl listTokenById
+      for (let j = 0; j < getListTokenByChain.length; j++) {
+        let have = listTokenById.get(getListTokenByChain[j].token_id);
+        if (!have) {
+          let dataToken = await supabase.getTokenById(getListTokenByChain[j].token_id);
+          listTokenById.set(getListTokenByChain[j].token_id, dataToken.symbol);
+        }
+      }
+      let result: string[] = [];
+      getListTokenByChain.forEach((e) => {
+        result.push(listTokenById.get(e.token_id)!);
+      });
+      listTokenByChain.set(listChain[i].name, result);
+    }
+
+    console.table(listTokenByChain);
+
+    for (const [key, value] of data) {
+      let dataUser: {
+        [key: string]: any;
+      } = {
+        address: key,
+        suppliedUSD: value.totalSuppliedUSD,
+        borrowedUSD: value.totalBorrowedUSD,
+      };
+      console.log(value);
+      for (let i = 0; i < listTokenByChain.size; i++) {
+        let getListTokenByChain = listTokenByChain.get(listChain[i].name);
+        for (let j = 0; j < getListTokenByChain!.length; j++) {
+          let dataToken = value.data.get(`${getListTokenByChain![j]}-${listChain[i].name}`);
+          console.log(`${key} ${getListTokenByChain![j]}-${listChain[i].name} ${dataToken}`);
+        }
+      }
+      result.push(dataUser);
+    }
+    console.table(result);
+  }
+
+  async exportDataFromUpdateDataToSupabase(
+    data: Map<
+      string,
+      {
+        totalSuppliedUSD: number;
+        totalBorrowedUSD: number;
+        data: Map<
+          string,
+          {
+            supplied: number;
+            borrowed: number;
+            suppliedUSD: number;
+            borrowedUSD: number;
+          }
+        >;
+      }
+    >
+  ) {
+    const fs = require('fs');
+    const path = require('path');
+    const outputPath = path.join(__dirname, '../../../dataByUser.json'); // adjust path if needed
+
+    // Chuyển Map thành mảng, bao gồm cả Map bên trong
+    const arr: any[] = [];
+    for (const [key, value] of data.entries()) {
+      // Chuyển đổi Map bên trong thành mảng
+      const dataArr: any[] = [];
+      for (const [dataKey, dataValue] of value.data.entries()) {
+        dataArr.push({
+          tokenChain: dataKey,
+          ...dataValue,
+        });
+      }
+
+      arr.push({
+        address: key,
+        totalSuppliedUSD: value.totalSuppliedUSD,
+        totalBorrowedUSD: value.totalBorrowedUSD,
+        data: dataArr,
+      });
+    }
+
+    // Ghi ra file JSON
+    fs.writeFileSync(outputPath, JSON.stringify(arr, null, 2), 'utf-8');
+    console.log('Đã ghi dataByUser.json:', arr);
   }
 }
 
 export const lending = new Lending();
 
 async function test() {
-  let data = await lending.updateDataToSupabase();
+  let data = await lending.updateDataToSupabase(false, 2);
+  console.log(data);
 }
 if (require.main === module) {
   test();

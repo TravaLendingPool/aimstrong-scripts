@@ -25,6 +25,12 @@ const chains: ChainConfig[] = [
     contractAddress: '0x7c94606f2240E61E242D14Ed984Aa38FA4C79c0C',
     fromBlock: '30479000',
   },
+  {
+    name: 'bnb',
+    chainId: '56',
+    contractAddress: '0xA0a61cFa5798976b0064fBbFfc73dc81080d929F',
+    fromBlock: '60400000',
+  },
 ];
 
 const TO_BLOCK = 'latest';

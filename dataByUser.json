@@ -1,0 +1,2438 @@
+[
+  {
+    "address": "0x2c0e21f7c0e4bd6b1a82ab66164db747fc40e54e",
+    "totalSuppliedUSD": 2.0185309824234303,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0.000056,
+        "borrowed": 0,
+        "suppliedUSD": 0.0000559972,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0.000047,
+        "borrowed": 0,
+        "suppliedUSD": 0.000047029178069999995,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 2.017174,
+        "borrowed": 0,
+        "suppliedUSD": 2.01842795604536,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x6325ae204778fa9db0f873e09ae0c38a80f41381",
+    "totalSuppliedUSD": 50.0321321250784,
+    "totalBorrowedUSD": 7.05449014123179,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 5.000124,
+        "borrowed": 0,
+        "suppliedUSD": 4.9998739938,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 45.004319,
+        "borrowed": 1.001409,
+        "suppliedUSD": 45.0322581312784,
+        "borrowedUSD": 1.00203068472129
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 1.517588,
+        "suppliedUSD": 0,
+        "borrowedUSD": 1.51853139340432
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 4.534154,
+        "suppliedUSD": 0,
+        "borrowedUSD": 4.53392806310618
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xa38e7e5d690c1e66a5244d826fcfd3bbb605542c",
+    "totalSuppliedUSD": 0.28999249965,
+    "totalBorrowedUSD": 0.20009999450000002,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0.290007,
+        "borrowed": 0.20011,
+        "suppliedUSD": 0.28999249965,
+        "borrowedUSD": 0.20009999450000002
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x9ed7704efdba07c304246c9e9c2f469adaafd758",
+    "totalSuppliedUSD": 1.0880745961674028,
+    "totalBorrowedUSD": 0.04002871562053,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0.100001,
+        "borrowed": 0.030011,
+        "suppliedUSD": 0.09999599995000001,
+        "borrowedUSD": 0.03000949945
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0.180028,
+        "borrowed": 0.010013,
+        "suppliedUSD": 0.18013976318268,
+        "borrowedUSD": 0.010019216170529999
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0.0001,
+        "borrowed": 0,
+        "suppliedUSD": 0.41528050000000005,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0.010006401137065133,
+        "borrowed": 0,
+        "suppliedUSD": 0.010012500739006254,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0.000300007927550011,
+        "borrowed": 0,
+        "suppliedUSD": 0.38264583229571625,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x135e94c43984b9d4d27b5d663f69a9d31d96f381",
+    "totalSuppliedUSD": 0.00209289570581,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0.002093,
+        "borrowed": 0,
+        "suppliedUSD": 0.00209289570581,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x86a36a5baaa5c60036e758caa1a4dad32e6a5af4",
+    "totalSuppliedUSD": 0,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xbe02474d4278db209db83c03ffe9e8bc65c73122",
+    "totalSuppliedUSD": 0.03098196269990481,
+    "totalBorrowedUSD": 0.0013358287813500002,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0.000005,
+        "borrowed": 0.001335,
+        "suppliedUSD": 0.0000050031040500000005,
+        "borrowedUSD": 0.0013358287813500002
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0.00000284804223114,
+        "borrowed": 0,
+        "suppliedUSD": 0.011827364017689348,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0.000015013963299583,
+        "borrowed": 0,
+        "suppliedUSD": 0.019149595578165462,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x9bc7fbf8c22c1bfcfecfa02325b1bafd0223d871",
+    "totalSuppliedUSD": 14.230268630722449,
+    "totalBorrowedUSD": 0.00351418028472,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 5.000137,
+        "borrowed": 0.003512,
+        "suppliedUSD": 5.00324113505097,
+        "borrowedUSD": 0.00351418028472
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0.200001,
+        "borrowed": 0,
+        "suppliedUSD": 0.20012532862164004,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 9.027352,
+        "borrowed": 0,
+        "suppliedUSD": 9.02690216704984,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xcc963741a98f57ffc65f893e8b98a1467d1811c9",
+    "totalSuppliedUSD": 425.2869592558234,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 10.000251,
+        "borrowed": 0,
+        "suppliedUSD": 10.00645925582331,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0.1,
+        "borrowed": 0,
+        "suppliedUSD": 415.2805000000001,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xdf5f387775c0d2e4b342f2f5a6d2254f53e8fcab",
+    "totalSuppliedUSD": 0.41528050000000005,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0.0001,
+        "borrowed": 0,
+        "suppliedUSD": 0.41528050000000005,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x1cdcbb01f6c6850120f96f659a8bef2097df8182",
+    "totalSuppliedUSD": 2.01049381210098,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 2.010594,
+        "borrowed": 0,
+        "suppliedUSD": 2.01049381210098,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xee6eacc608a4524df5cb1a33ce7840139a8dea1a",
+    "totalSuppliedUSD": 0.00039398036698,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0.000394,
+        "borrowed": 0,
+        "suppliedUSD": 0.00039398036698,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x27a80f6de3472a46debd8030a4f19408d21fa4d6",
+    "totalSuppliedUSD": 827.0909057406243,
+    "totalBorrowedUSD": 551.3894378951255,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 25.683328,
+        "borrowed": 0,
+        "suppliedUSD": 25.69929378401792,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 701.365604,
+        "borrowed": 551.416915,
+        "suppliedUSD": 701.3306549519526,
+        "borrowedUSD": 551.3894378951255
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 100.00000000465103,
+        "borrowed": 0,
+        "suppliedUSD": 100.06095700465386,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x26bad3ab96d0727878f94b7cfcf79318e03f0252",
+    "totalSuppliedUSD": 2204.6904558000047,
+    "totalBorrowedUSD": 1704.8192136252585,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 2204.800321,
+        "borrowed": 1704.904169,
+        "suppliedUSD": 2204.6904558000047,
+        "borrowedUSD": 1704.8192136252585
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xe3dda1853e9dbba21ccbab0ae63a82895713c19c",
+    "totalSuppliedUSD": 1.9101987703196577,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.000460268120525571,
+        "borrowed": 0,
+        "suppliedUSD": 1.9101987703196577,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x078c8fcbda37f0aa9c7de11100fb1adffa68997b",
+    "totalSuppliedUSD": 1.00204506560615,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 1.002095,
+        "borrowed": 0,
+        "suppliedUSD": 1.00204506560615,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x584a7db5f3960ae42a030a4589f0023683822057",
+    "totalSuppliedUSD": 30.05826712191005,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 30.059765,
+        "borrowed": 0,
+        "suppliedUSD": 30.05826712191005,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x07d2cf9af55ebe02bb7faca3ee4c4bb46bbbc026",
+    "totalSuppliedUSD": 11.742011584482459,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.00258791844800987,
+        "borrowed": 0,
+        "suppliedUSD": 10.740345499990738,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 1.001716,
+        "borrowed": 0,
+        "suppliedUSD": 1.00166608449172,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x3655ad27b6b942511e2625872eedb6d79bd3ed4c",
+    "totalSuppliedUSD": 4151.760104461851,
+    "totalBorrowedUSD": 2077.6970888408036,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 1.000379044236284,
+        "borrowed": 0.5006273425368071,
+        "suppliedUSD": 4151.760104461851,
+        "borrowedUSD": 2077.6970888408036
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xeaae150c227a0697d5b143544c6b98447c235d63",
+    "totalSuppliedUSD": 0.9134715165559237,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.000220103700521428,
+        "borrowed": 0,
+        "suppliedUSD": 0.9134715165559237,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xd4059a8d03659613297cc79e27bd157bc0f9eaef",
+    "totalSuppliedUSD": 1.3585216645169522,
+    "totalBorrowedUSD": 0.4251154218321967,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.000020007760232731,
+        "borrowed": 0.000100021566452441,
+        "suppliedUSD": 0.08303594641699716,
+        "borrowedUSD": 0.4151082048105567
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0.010001,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0.010007217021640001
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0.001000026119743756,
+        "borrowed": 0,
+        "suppliedUSD": 1.275485718099955,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x11546088b56e7494e7d58a107f1e155b4485dc86",
+    "totalSuppliedUSD": 0.20754963536646856,
+    "totalBorrowedUSD": 1.3393935856783001e-8,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.000050009706879827,
+        "borrowed": 3.227309e-12,
+        "suppliedUSD": 0.20754963536646856,
+        "borrowedUSD": 1.3393935856783001e-8
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xe0aad14cfcd9b5ed6f7431822e090b59c34b652e",
+    "totalSuppliedUSD": 0.10009912664251917,
+    "totalBorrowedUSD": 0.07509278232960707,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 6.876758e-12,
+        "borrowed": 0,
+        "suppliedUSD": 2.8539831653746e-8,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0.10003811786717923,
+        "borrowed": 0.07504703590792869,
+        "suppliedUSD": 0.10009909810268752,
+        "borrowedUSD": 0.07509278232960707
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x98ff16c5c6fac9e9c8da66af265b8fac1198547e",
+    "totalSuppliedUSD": 0.35348362742927103,
+    "totalBorrowedUSD": 0.04150317219355466,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0.000010000313767441,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0.04150317219355466
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0.00008511924528825,
+        "borrowed": 0,
+        "suppliedUSD": 0.35348362742927103,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x731f5f4485a5a858a3bfb817098e2e840bfb1cb1",
+    "totalSuppliedUSD": 4.150471099173894,
+    "totalBorrowedUSD": 3.0008084622628597,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0.001000068454547685,
+        "borrowed": 0,
+        "suppliedUSD": 4.150471099173894,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 3.000958,
+        "suppliedUSD": 0,
+        "borrowedUSD": 3.0008084622628597
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x0283eec649c80e73cee46873d6575aa9849a70c1",
+    "totalSuppliedUSD": 0.13909560956282077,
+    "totalBorrowedUSD": 0,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 1.103757832e-9,
+        "borrowed": 0,
+        "suppliedUSD": 1.1044306496616522e-9,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0.000109055898961575,
+        "borrowed": 0,
+        "suppliedUSD": 0.1390956084583901,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x399f942e60ad3e579ea2de0f92d10c0ad3ebb8a5",
+    "totalSuppliedUSD": 0.569678783660715,
+    "totalBorrowedUSD": 0.36081399835974903,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0.017516077316455016,
+        "borrowed": 0,
+        "suppliedUSD": 0.01752675459170481,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0.000432906808208771,
+        "borrowed": 0.00028289099408062,
+        "suppliedUSD": 0.5521520290690102,
+        "borrowedUSD": 0.36081399835974903
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0xd2e404e1272dc0ec650aced150cb8d43754c6b44",
+    "totalSuppliedUSD": 0.10006095700430837,
+    "totalBorrowedUSD": 0.041502599195284734,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0.00001000017570179,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0.041502599195284734
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0.10000000000430574,
+        "borrowed": 0,
+        "suppliedUSD": 0.10006095700430837,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  },
+  {
+    "address": "0x2eec8e1f5b4118ed2d6b14fd35f550f26b812da3",
+    "totalSuppliedUSD": 0.20012191400819257,
+    "totalBorrowedUSD": 0.12450768669084887,
+    "data": [
+      {
+        "tokenChain": "USDC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "ETH-Base",
+        "supplied": 0,
+        "borrowed": 0.000030000500384886,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0.12450768669084887
+      },
+      {
+        "tokenChain": "ETH-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDC-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "USDT-BNB Chain",
+        "supplied": 0.2000000000081876,
+        "borrowed": 0,
+        "suppliedUSD": 0.20012191400819257,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BNB-BNB Chain",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Base",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      },
+      {
+        "tokenChain": "BTC-Arbitrum One",
+        "supplied": 0,
+        "borrowed": 0,
+        "suppliedUSD": 0,
+        "borrowedUSD": 0
+      }
+    ]
+  }
+]

@@ -46,6 +46,14 @@ export class SupabaseDatabase {
     return data;
   }
 
+  async getListChain() {
+    const {data, error} = await supabaseData.from('chain').select('*');
+    if (error) {
+      throw error;
+    }
+    return data;
+  }
+
   async getChain(chain: string) {
     const {data, error} = await supabaseData.from('chain').select('*').eq('name', chain);
     if (error) {
@@ -64,6 +72,14 @@ export class SupabaseDatabase {
 
   async getTokens() {
     const {data, error} = await supabaseData.from('token').select('*');
+    if (error) {
+      throw error;
+    }
+    return data;
+  }
+
+  async getListTokenByChain(chain: string) {
+    const {data, error} = await supabaseData.from('token_chain').select('*').eq('chain_id', chain);
     if (error) {
       throw error;
     }

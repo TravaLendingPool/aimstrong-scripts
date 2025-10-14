@@ -12,6 +12,7 @@ class Price {
       usdt: 'USDT',
       eth: 'ETH',
       bnb: 'BNB',
+      btc: 'BTC',
     };
 
     const key = symbol.toLowerCase();

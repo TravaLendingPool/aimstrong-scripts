@@ -1,3 +1,4 @@
+import {supabase} from '../Supabase/supabase';
 import {getListUser} from './CrawlUser';
 
 class User {
@@ -7,6 +8,12 @@ class User {
 
   async getNickName(address: string) {
     return null;
+  }
+
+  async getListUserAndSaveToSupabase() {
+    let listUser = await getListUser();
+    await supabase.updateUsers(listUser);
+    return listUser;
   }
 }
 
