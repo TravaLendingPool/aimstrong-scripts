@@ -23,6 +23,12 @@ const tokens = [
     decimals: 6,
   },
   {
+    chain: 'base',
+    token: 'btc',
+    incentiveAddress: '0x73414Bf6a36eD1d52e8A62458A94fDa046A5C599',
+    decimals: 6,
+  },
+  {
     chain: 'arb1',
     token: 'usdc',
     incentiveAddress: '0xB8e234AAc0eea4225b7Afe6A30C21b3362d48bfa',
@@ -39,6 +45,30 @@ const tokens = [
     token: 'eth',
     incentiveAddress: '0x9E3907a91329df4bf1905B55450c96bA0bf5D5d2',
     decimals: 6,
+  },
+  {
+    chain: 'arb1',
+    token: 'btc',
+    incentiveAddress: '0xbCf0DE6f9782A04A953633873C4987c0FC976846',
+    decimals: 6,
+  },
+  {
+    chain: 'bnb',
+    token: 'usdc',
+    incentiveAddress: '0x5943b07E46511B13b0FB167A2a93a8D8dFfB958A',
+    decimals: 18,
+  },
+  {
+    chain: 'bnb',
+    token: 'usdt',
+    incentiveAddress: '0x3Fff357de53C7A08D8002298b7b14818959Ba36B',
+    decimals: 18,
+  },
+  {
+    chain: 'bnb',
+    token: 'bnb',
+    incentiveAddress: '0x05cC1d98bCe5CB60c9c4aD4c6dEA89Ef11fE28F4',
+    decimals: 18,
   },
 ];
 
@@ -63,9 +93,9 @@ async function getIncentiveDataUser(address: string) {
 
 class Incentive {
   async ViewIncentiveData() {
-    let users = await user.getUsers();
+    let users = await user.getListUserAndSaveToSupabase();
     let sleep = 500;
-    let batchSize = 2;
+    let batchSize = 5;
     let allResult: any = [];
     for (let i = 0; i < users.length; i += batchSize) {
       console.log(`Processing batch ${i / batchSize + 1} of ${users.length / batchSize}`);
@@ -83,15 +113,21 @@ class Incentive {
     let data = [];
     let totalRewardOnBase = 0;
     let totalRewardOnArbitrum = 0;
+    let totalRewardOnBnb = 0;
     for (const dataUser of allResult) {
       let resultUser: any = {
         address: dataUser.address,
         base_usdt: 0,
         base_usdc: 0,
         base_eth: 0,
+        base_btc: 0,
         arb1_usdc: 0,
         arb1_usdt: 0,
         arb1_eth: 0,
+        arb1_btc: 0,
+        bnb_usdc: 0,
+        bnb_usdt: 0,
+        bnb_bnb: 0,
       };
       for (const data of dataUser.data) {
         if (data.chain === 'base') {
@@ -102,13 +138,17 @@ class Incentive {
           resultUser[`arb1_${data.token}`] = data.reward;
           totalRewardOnArbitrum += data.reward;
         }
+        if (data.chain === 'bnb') {
+          resultUser[`bnb_${data.token}`] = data.reward;
+          totalRewardOnBnb += data.reward;
+        }
       }
       data.push(resultUser);
     }
-    console.log('Total reward: ', totalRewardOnBase + totalRewardOnArbitrum);
+    console.log('Total reward: ', totalRewardOnBase + totalRewardOnArbitrum + totalRewardOnBnb);
     console.log('Total reward on Base: ', totalRewardOnBase);
     console.log('Total reward on Arbitrum: ', totalRewardOnArbitrum);
-
+    console.log('Total reward on BNB: ', totalRewardOnBnb);
     console.table(data);
   }
 
